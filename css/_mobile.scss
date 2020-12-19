@@ -1,0 +1,208 @@
+@media (max-width: 768px) {
+
+    html,body {
+        position: relative;
+
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+    }
+
+   .navbar-wrapper {
+    .navbar {
+       .container-fluid button {
+           border-color: white;
+           margin-right: -2em;
+
+       }
+        .navbar-brand {
+            color: #ffffff;
+        }
+        .navbar-nav {
+            .nav-item {
+                a {
+                    color: #ffffff;
+                }
+                a:hover {
+                    color: #ff6633;
+                }
+            }
+        }
+    }
+   }
+
+   .header-section {
+    width: 100%;
+       margin-top: -6em;
+
+       .banner-info {
+           .site-buttons {
+              .btn-primary {
+                  margin-left: 0.6em;
+                  margin-bottom: 1em;
+              }
+              .btn-light {
+                  font-size: 0.9em;
+              }
+           }
+       }
+
+       .banner-img {
+           img {
+            margin-top: 5em;
+           }
+       }
+   }
+
+   // project section starts here
+
+   .project-area {
+    width: 100%;
+       .container-fluid {
+
+        .grid {
+            .element {
+                .card-body {
+                    margin-top: -15px;
+                    .card-title {
+                        padding-bottom: 15px;
+                        text-align: left;
+                    }
+                    .card-text {
+                        text-align: left;
+                    }
+                }
+            }
+        }
+           margin-left: -8px;
+
+           .button-group {
+                button {
+                    padding: 10px 10px;
+                    color: #ffffff;
+                    margin: 5px 2px;
+                }
+           }
+       }
+   }
+
+   // End about area
+
+   .about-area {
+    width: 100%;
+       .let-image {
+           .about-image {
+               img {
+                   margin-left: -3em;
+               }
+           }
+       }
+       .about-two {
+           padding-left: 2em;
+           .text-uppercase {
+               color: #ffffff;
+               font-weight: 400;
+           }
+           .para {
+               color: #ffffff;
+               border: 2px solid #ffffff;
+               padding-left: 1em;
+               border-radius: 8px;
+           }
+           .sech2 {
+               padding-top: 3em;
+               margin-bottom: 1.5em;
+           }
+       }
+   }
+
+   // Start about area
+
+    //    Start mentor section
+
+    .mentor-area {
+        width: 100%;
+        .mentor-title {
+            margin-left: -20px;
+            border-radius: 4px;
+            .title-text {
+                margin-left: -240px;
+                color: #ffffff;
+                display: inline-flex;
+                min-width: 450px;
+            }
+            .para {
+                min-width: 450px;
+                display: inline-flex;
+                margin-left: -240px;
+                color: #ffffff;
+                padding-top: 20px;
+                padding-left: 25px;
+            }
+        }
+        .mentor-list {
+            padding-top: 50px;
+            min-width: 100px;
+            padding-left: 50px;
+            
+            .mentors {
+                border-radius: 8px;
+                margin-top: 10px;
+                .card-body {
+                    padding-top: 0;
+                    .card-title {
+                        padding-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    // End mentor section
+
+    // Certification section starts here
+
+    .certifications {
+        margin-left: 1.2em;
+    }
+
+    // Certification section ends here
+
+   // Contact section starts here
+
+   .contactsection {
+    width: 100%;
+       .form {
+           margin-left: 1.5em;
+       }
+       .img {
+           margin-left: -1em;
+        //    width: 500px;
+        //    height: 100px;
+       }
+   }
+
+   // Contact section endse her
+
+
+//    Footer section starts here
+
+   footer {
+       margin-right: -2.5em;
+    .footer-area {
+        p {
+         font-size: 11px;
+        }
+        .right-two {
+            a {
+                margin-top: 50px;
+            }
+         }
+    }
+   }
+
+// Footer section ends here
+
+}

@@ -1,0 +1,397 @@
+@import "./global";
+@import "./mobile";
+
+html, body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='800' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='88' y1='88' x2='0' y2='0'%3E%3Cstop offset='0' stop-color='%235e2d81'/%3E%3Cstop offset='1' stop-color='%239648cd'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='75' y1='76' x2='168' y2='160'%3E%3Cstop offset='0' stop-color='%235b818f'/%3E%3Cstop offset='0.09' stop-color='%2372a2b3'/%3E%3Cstop offset='0.18' stop-color='%2381b6c9'/%3E%3Cstop offset='0.31' stop-color='%238cc7db'/%3E%3Cstop offset='0.44' stop-color='%2394d2e8'/%3E%3Cstop offset='0.59' stop-color='%239bdbf2'/%3E%3Cstop offset='0.75' stop-color='%23a0e2fa'/%3E%3Cstop offset='1' stop-color='%23a3e7ff'/%3E%3C/linearGradient%3E%3Cfilter id='c' x='0' y='0' width='200%25' height='200%25'%3E%3CfeGaussianBlur in='SourceGraphic' stdDeviation='12' /%3E%3C/filter%3E%3C/defs%3E%3Cpolygon fill='url(%23a)' points='0 174 0 0 174 0'/%3E%3Cpath fill='%23000' fill-opacity='.5' filter='url(%23c)' d='M121.8 174C59.2 153.1 0 174 0 174s63.5-73.8 87-94c24.4-20.9 87-80 87-80S107.9 104.4 121.8 174z'/%3E%3Cpath fill='url(%23b)' d='M142.7 142.7C59.2 142.7 0 174 0 174s42-66.3 74.9-99.3S174 0 174 0S142.7 62.6 142.7 142.7z'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top left;
+    margin-bottom: 100px;
+
+}
+
+
+
+
+// Navbar starts here
+
+.navbar-wrapper {
+    .navbar-light .navbar-nav .nav-link {
+        color: black;
+    }
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: blue;
+    }
+
+    .navbar-brand {
+        padding-left: 20px;
+        color: #ffffff;
+    }
+    .navbar-brand:hover {
+        color: #ffffff;
+    }
+    .navbar-nav {
+        li{
+            padding: 5px 30px;
+        }
+        li ,a {
+         font-weight: 400;
+        //  text-align: center;
+        }
+    }
+}
+
+// Navbar ends here
+
+// Header section starts here
+
+.header-section {
+    padding-bottom: 100px;
+    .header-main {
+        .banner-info {
+            margin-top: 130px;
+            padding-left: 30px;
+
+            h1{
+                font-size: 3.2rem;
+                color: whitesmoke;
+            }
+            h3 {
+                color: whitesmoke;
+                padding-top: 35%;
+                font-weight: 500;
+            }
+            h3::after{
+                content: "";
+                height: 2px;
+                width: 18vw;
+                background: linear-gradient(to left,white,hotpink,blue, white);
+                display: inline-block;
+                margin-left: 5%;
+            }
+            h4 {
+            font-size: 1.5rem;
+            color: whitesmoke;
+            }
+
+            //header buttons
+
+            .site-buttons {
+                .site-buttons, .btn  {
+                    padding: 0.8rem 2.2rem;
+                    font: normal 500 16px/20px;
+                    position: relative;
+                    border: 3px solid transparent;
+                    border-radius: 8px;
+
+                    }
+
+                .btn-primary {
+                    background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+                    background-clip: padding-box;
+                    color: whitesmoke;
+                    transition: background .6s ease;
+                    box-shadow: root(box-shadow);
+                }
+                .btn-primary:hover {
+                    background: whitesmoke;
+                    background-clip: padding-box;
+                    color: black;
+                }
+                .btn-primary:hover::after {
+                    position: absolute;
+                    top: -2px;
+                    left: -2px;
+                    bottom: -2px;
+                    right: -2px;
+                    background: root(gradient-color);
+                    content: "";
+                    z-index: -1;
+                    border-radius: 4px;
+                }
+            
+                .btn-light {
+                    background: whitesmoke;
+                    background-clip: padding-box;
+                    transition: background .6s ease;
+                    margin-left: 10px;
+                }
+                .btn-light:hover {
+                    background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+                    color: whitesmoke;
+                    box-shadow: root(box-shadow);
+                }
+                .btn-light:hover::after {
+                    position: absolute;
+                    top: -2px;
+                    left: -2px;
+                    bottom: -2px;
+                    right: -2px;
+                    background: root(gradient-color);
+                    content: "";
+                    z-index: -1;
+                    border-radius: 4px;
+                }
+            }
+
+        }
+        .banner-img {
+            margin-top: 3px;
+        }
+    }
+}
+
+// Header section starts here
+
+
+// Project section starts here
+
+.project-area {
+    padding: 4rem 0;
+
+    .title-h1 {
+        padding-left: 40px;
+        color: white;
+    }
+
+    .grid {
+        padding: 0 35px;
+        .element {
+            background: rgba(248, 252, 253, 0.973);
+            padding: 2rem 0;
+            width: 20rem;
+            margin: 2rem 1rem;
+            // box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.11);
+            transition: box-shadow.7s ease;
+            border-radius: 8px;
+            border: solid 1px whitesmoke;
+        }
+        .element:hover {
+            filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+        }
+    }
+
+    .button-group button {
+        background: transparent;
+        border: none;
+        font: normal 500 16px/130px;
+        text-transform: uppercase;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .button-group button+button {
+        padding-left: 3rem;
+    }
+    button {
+        margin-right: 80px;
+    }
+    .button-group {
+        padding-left: 40px;
+    }
+}
+
+
+// Project section ends here
+
+
+// About section strats here
+
+.about-area {
+    margin-top: 150px;
+    padding-bottom: 50px;
+    .container-fluid {
+        .about-image {
+            padding-left: 40px;
+            
+        }
+        .about-title,h2,span {
+            display: block;
+            font: normal bold 49px/60px;
+            font-family: roboto, cursive;
+            letter-spacing: 21px;
+        }
+        .about-title, .paragraph, p {
+            padding: .4rem 0;
+            letter-spacing: 1px;
+            font-family: roboto;
+        }
+        .btn-primary {
+            background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+            background-clip: padding-box;
+            color: whitesmoke;
+            transition: background .6s ease;
+            box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+        }
+        .btn-primary:hover {
+            background: whitesmoke;
+            background-clip: padding-box;
+            color: black;
+        }
+        .btn-primary:hover::after {
+            position: relative;
+            top: -2px;
+            left: -2px;
+            bottom: -2px;
+            right: -2px;
+            background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+            content: "";
+            z-index: -1;
+            border-radius: 4px;
+        }
+    }
+}
+
+// About section ends here
+
+// Mentor section starts here
+
+.mentor-area {
+    padding: 7rem 2rem;
+
+    .mentors {
+        background: rgba(248, 252, 253, 0.973);
+        padding: 2rem 0;
+        width: 16rem;
+        margin: 5rem .5rem;
+        box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+
+        .card-title {
+            font-size: 20px;
+        }
+    }
+
+    .mentor-title {
+        padding: 0 14rem;
+
+        h1 {
+            font-size: 35px;
+        }
+    }
+}
+
+// Mentor section ends here
+
+
+// Certification section starts here
+
+.certifications {
+    -webkit-clip-path: polygon(50% 0%, 100% 11%, 100% 80%, 48% 100%, 0 92%, 0 0);
+    clip-path: polygon(50% 0%, 100% 11%, 100% 80%, 48% 100%, 0 92%, 0 0);
+    background-color: #0A79DF;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: -1;
+    color: whitesmoke;
+    background: transparentize($color: blue, $amount: .6%);
+}
+.certifications {
+#carouselExampleIndicators {
+    width: 50%;
+    margin: 0 auto;
+    z-index: 20;
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+}
+}
+
+// Certification section ends here
+
+
+// Contact section starts here
+
+#contact {
+    margin-top: 100px;
+    padding-bottom: 10px;
+    margin-right: 100px;
+}
+#contactForm {
+            background: rgba(248, 252, 253, 0.973);
+            padding: 1.5rem 1.8rem;
+            margin: 2rem 1rem;
+            box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.11);
+            transition: box-shadow.7s ease;
+            border-radius: 8px;
+            border: solid 1px whitesmoke;
+}
+
+.form-control {
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+
+.contactbutton {
+    .btn {
+        background: rgb(94, 61, 142);
+        border:1px solid #aaa;
+        border-radius:3px;
+        color: white;
+        font-size:1em;
+        padding:10 50px;
+        text-transform:uppercase;
+        border-radius: 8px;
+    }
+    .btn:hover{
+        border-color: none;
+        color: #fff;
+        background: rgb(187, 64, 146);
+    }
+    button {
+        padding: 12px 10px;
+    }
+}
+
+
+// contact section ends here
+
+// Footer section starts here
+
+footer {
+    -webkit-clip-path: polygon(0 43%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 43%, 100% 0, 100% 100%, 0% 100%);
+    z-index: -1;
+    background: transparentize($color: whitesmoke, $amount: .4%);
+    color: white;
+    padding: 15px 15px;
+
+    .right {
+        margin-top: -18px;
+        padding-right: 5px;
+        a, img {
+          float: right;
+          margin-top: -11px;  
+          background-color: transparent;
+          padding-right: 5px;
+        }
+    }
+    .footer-area {
+
+        .right-two {
+            float: right;
+            margin-top: -55px;
+        }
+        z-index: 5;
+        color: white;
+
+
+        p{
+            padding-top: 12px;
+            color: black;
+        }
+        .righty {
+            padding-top: 12px;
+            text-align: right;
+            color: black;
+            // background: rgb(217, 232, 233);
+            background: rgb(192, 251, 255);
+            font-size: smaller;
+        }
+    }
+}
+
+// Footer section ends here

@@ -1,0 +1,28 @@
+// tag used classes
+
+.title-text {
+    font: normal bold 50px/72px;
+    font-family: Roboto, cursive;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+p, .para{
+    color: gray;
+    font-style: italic;
+    font: normal 500 16px/ 25px;
+    font-family: roboto, cursive;
+}
+
+button:focus,
+button:active
+button:hover
+.btn:active,
+.btn.active{
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+// tag used classes ends
