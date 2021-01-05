@@ -1,6 +1,7 @@
 @import "./global";
 @import "./mobile";
 
+@media (min-width: 768px) {
 
 html, body{
     margin: 0%;
@@ -396,3 +397,4 @@ footer {
 }
 
 // Footer section ends here
+}
