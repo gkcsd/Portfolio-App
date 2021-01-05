@@ -1,6 +1,6 @@
 .title-text {
   font: normal bold 50px/72px;
-  font-family: Roboto, cursive;
+  font-family: Roboto;
 }
 
 .text-uppercase {
@@ -10,7 +10,7 @@
 p, .para {
   color: black;
   font: normal 500 16px/ 25px;
-  font-family: roboto, cursive;
+  font-family: roboto;
 }
 
 button:focus,
@@ -47,6 +47,7 @@ button:hover
     color: #ff6633;
   }
   .header-section {
+    font-family: 'Roboto';
     width: 100%;
     margin-top: -6em;
   }
@@ -74,6 +75,7 @@ button:hover
     text-align: left;
   }
   .project-area .container-fluid .grid .element .card-body .card-text {
+    font-family: 'Roboto';
     text-align: left;
   }
   .project-area .container-fluid .button-group button {
@@ -157,6 +159,7 @@ button:hover
     margin-left: -1em;
   }
   footer {
+    font-family: 'Roboto', sans-serif;
     margin-right: -2.5em;
   }
   footer .footer-area p {
@@ -374,7 +377,7 @@ html, body {
 .about-area .container-fluid .about-title, .about-area .container-fluid h2, .about-area .container-fluid span {
   display: block;
   font: normal bold 49px/60px;
-  font-family: roboto, cursive;
+  font-family: roboto;
   letter-spacing: 21px;
 }
 
