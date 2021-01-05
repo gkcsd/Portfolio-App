@@ -47,7 +47,7 @@ button:hover
     color: #ff6633;
   }
   .header-section {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     width: 100%;
     margin-top: -6em;
   }
@@ -75,7 +75,7 @@ button:hover
     text-align: left;
   }
   .project-area .container-fluid .grid .element .card-body .card-text {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     text-align: left;
   }
   .project-area .container-fluid .button-group button {
