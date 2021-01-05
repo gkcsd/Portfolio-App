@@ -47,7 +47,7 @@ button:hover
     color: #ff6633;
   }
   .header-section {
-    font-family: roboto, sans-serif;
+    font-family: roboto;
     width: 100%;
     margin-top: -6em;
   }
@@ -75,7 +75,7 @@ button:hover
     text-align: left;
   }
   .project-area .container-fluid .grid .element .card-body .card-text {
-    font-family: roboto, sans-serif;
+    font-family: roboto;
     text-align: left;
   }
   .project-area .container-fluid .button-group button {
@@ -159,7 +159,7 @@ button:hover
     margin-left: -1em;
   }
   footer {
-    font-family: roboto, sans-serif;
+    font-family: roboto;
     margin-right: -2.5em;
   }
   footer .footer-area p {
