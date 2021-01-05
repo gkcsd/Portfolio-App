@@ -25,7 +25,6 @@ button:hover
 }
 
 @media (max-width: 768px) {
-  @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto:wght@100&family=Titillium+Web:wght@200&display=swap');
   html, body {
     position: relative;
     margin: 0%;
