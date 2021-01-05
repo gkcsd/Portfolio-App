@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 @media (max-width: 768px) {
 
@@ -9,7 +10,6 @@
         box-sizing: border-box;
         width: 100%;
         height: 100%;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 
    .navbar-wrapper {
@@ -36,11 +36,11 @@
    }
 
    .header-section {
-    width: 100%;
-       margin-top: -6em;
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+        margin-top: -6em;
 
        .banner-info {
-        font-family: roboto;
            .site-buttons {
               .btn-primary {
                   margin-left: 0.6em;
@@ -74,7 +74,7 @@
                         text-align: left;
                     }
                     .card-text {
-                        font-family: roboto;
+                        font-family: 'Roboto', sans-serif;
                         text-align: left;
                     }
                 }
@@ -194,7 +194,8 @@
 //    Footer section starts here
 
    footer {
-       margin-right: -2.5em;
+    font-family: 'Roboto', sans-serif;
+    margin-right: -2.5em;
     .footer-area {
         p {
          font-size: 11px;
